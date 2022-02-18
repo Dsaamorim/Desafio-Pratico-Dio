@@ -1,0 +1,1 @@
+Aplicação feita em Python, na IDE do PyCharm e com interface gráfica feita com Designer, o objetivo é converter em 6 moedas diferentes

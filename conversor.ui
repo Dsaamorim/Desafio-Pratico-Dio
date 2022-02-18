@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>556</width>
+    <height>484</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="moeda">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>122</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Insira o valor: </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entrada_moedas">
+    <property name="geometry">
+     <rect>
+      <x>137</x>
+      <y>60</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="moeda_2">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>109</y>
+      <width>168</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>O tipo de moeda inserida: </string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="tipos_moedas">
+    <property name="geometry">
+     <rect>
+      <x>184</x>
+      <y>109</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Real</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dólar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Euro</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Peso</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="moeda_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>149</y>
+      <width>187</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>O tipo de moeda convertida: </string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="tipos_moedas_2">
+    <property name="geometry">
+     <rect>
+      <x>202</x>
+      <y>149</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Real</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dólar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Euro</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Peso</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="botao_converter">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>240</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Converter</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_sair">
+    <property name="geometry">
+     <rect>
+      <x>99</x>
+      <y>240</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Saída</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entrada_moedas_2">
+    <property name="geometry">
+     <rect>
+      <x>81</x>
+      <y>200</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="moeda_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>200</y>
+      <width>80</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Saída:</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>556</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>botao_sair</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>137</x>
+     <y>232</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>291</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
