@@ -1,1 +1,1 @@
-AplicaÁ„o feita em Python, na IDE do PyCharm e com interface gr·fica feita com Designer, o objetivo È converter em 6 moedas diferentes
+Aplica√ß√£o feita em Python, na IDE do PyCharm e com interface gr√°fica feita com Designer, o objetivo √© converter em 6 moedas diferentes
